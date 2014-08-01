@@ -7,7 +7,7 @@ development:
   adapter: mysql2
   encoding: utf8
   reconnect: false
-  database: wuthless_development
+  database: wuthlesscoin_development
   pool: 5
   username: root
   password: addo
@@ -20,7 +20,7 @@ test:
   adapter: mysql2
   encoding: utf8
   reconnect: false
-  database: wuthless_test
+  database: wuthlesscoin_test
   pool: 5
   username: root
   password:
@@ -30,7 +30,7 @@ production:
   adapter: mysql2
   encoding: utf8
   reconnect: false
-  database: wuthless_production
+  database: wuthlesscoin_production
   pool: 5
   username: root
   password: addo
