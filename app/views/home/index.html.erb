@@ -1,0 +1,15 @@
+<h1>Listing coins</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Num coins</th>
+  </tr>
+
+<% @coins.each do |coin| %>
+  <tr>
+    <td><%= coin.name %></td>
+    <td><%= coin.num_coins %></td>
+  </tr>
+<% end %>
+</table>

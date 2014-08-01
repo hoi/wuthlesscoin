@@ -11,3 +11,16 @@
  *= require_self
  *= require_tree .
  */
+.clear { clear:both; }
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+img { border: none; }
+
+body {
+    margin: 0px;
+    font-family: "century gothic", "Droid Sans", sans-serif;
+}
