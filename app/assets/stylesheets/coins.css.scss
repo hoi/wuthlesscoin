@@ -1,3 +1,33 @@
 // Place all the styles related to the coins controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+#main-container {
+    margin: 0 auto;
+    width: 500px;
+    #header-container {
+        font-size: 55px;
+        
+        img {
+            height: 40px;
+            width: 40px;
+        }
+    }
+    
+    #content-container {
+        margin-top: 40px;
+        font-size: 35px;
+        
+        .wuthless-name {
+            float: left;
+            width: 280px;
+            text-align: right;
+            margin-right: 20px;
+            font-weight: bold;
+        }
+        
+        .wuthless-coins {
+            float: left;
+            width: 50px;
+        }
+    }
+}
