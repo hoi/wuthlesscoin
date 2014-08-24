@@ -88,4 +88,10 @@ class CoinsController < ApplicationController
 
     render json: {"ips" => db_ips}
   end
+
+  def mash_list
+    db_mashes = Mash.all
+
+    render json: {"mashes" => db_mashes}
+  end
 end
