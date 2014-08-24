@@ -4,6 +4,7 @@ Wuthlesscoin::Application.routes.draw do
   resources :coins
 
   get "mash", :to => "home#mash"
+  get "ips", :to => "coins#ip_list"
   get "ips/:rpi_id/:mash", :to => "home#ips"
 
   root :to => "home#index"

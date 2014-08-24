@@ -82,4 +82,10 @@ class CoinsController < ApplicationController
       format.json { head :no_content }
     end
   end
+
+  def ip_list
+    db_ips = RpiIp.all
+
+    render json: {"ips" => db_ips}
+  end
 end
